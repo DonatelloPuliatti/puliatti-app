@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: puliatti-app
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    plan: free
+    branch: main
+    autoDeploy: true
